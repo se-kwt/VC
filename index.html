@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Adren — Corporate Lawyer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="vcard-wrapper">
+
+        <!-- Header -->
+        <header class="hero">
+            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80" alt="Legal consultation"
+                class="hero-img">
+            <button class="menu-btn" aria-label="Menu"><i class="fas fa-grip"></i></button>
+        </header>
+
+        <section class="profile-card">
+            <div class="profile-avatar">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=face"
+                    alt="Mary Adren">
+            </div>
+            <div class="profile-deco" aria-hidden="true">
+                <i class="fas fa-scale-balanced"></i>
+                <i class="fas fa-gavel"></i>
+            </div>
+            <h1 class="profile-name">Mary Adren</h1>
+            <p class="profile-title">Corporate Lawyer</p>
+        </section>
+
+        <!-- Social & About -->
+        <section class="section social-about">
+            <div class="social-row">
+                <a href="#" class="social-icon" aria-label="Website"><i class="fas fa-globe"></i></a>
+                <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="about-block">
+                <i class="fas fa-gavel about-icon left"></i>
+                <p class="about-text">As a corporate lawyer, I provide expert legal guidance to businesses on matters
+                    such as contracts, compliance, mergers, and corporate governance. I help companies navigate complex
+                    regulations while protecting their interests and ensuring smooth operations.</p>
+                <i class="fas fa-circle-dollar-to-slot about-icon right"></i>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section">
+            <h2 class="section-heading">Contact</h2>
+            <div class="contact-grid">
+                <a href="mailto:maryadren@gmail.com" class="contact-box">
+                    <i class="fas fa-envelope"></i>
+                    <span>maryadren@gmail.com</span>
+                </a>
+                <a href="mailto:mary.official@gmail.com" class="contact-box">
+                    <i class="fas fa-envelope"></i>
+                    <span>mary.official@gmail.com</span>
+                </a>
+                <a href="tel:+918954852120" class="contact-box">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 8954852120</span>
+                </a>
+                <a href="tel:+919856458520" class="contact-box">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 9856458520</span>
+                </a>
+                <div class="contact-box">
+                    <i class="fas fa-cake-candles"></i>
+                    <span>12th June, 1990</span>
+                </div>
+                <div class="contact-box">
+                    <i class="fas fa-location-dot"></i>
+                    <span>Mumbai</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Appointment -->
+        <section class="section section-dark appointment">
+            <i class="fas fa-handcuffs section-deco left"></i>
+            <h2 class="section-heading light">Make an Appointment</h2>
+            <div class="date-picker">
+                <input type="date" id="appointment-date" aria-label="Pick a date">
+                <label for="appointment-date" class="date-label">
+                    <span class="date-placeholder">Pick a Date</span>
+                    <i class="fas fa-calendar-days"></i>
+                </label>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section">
+            <h2 class="section-heading">Our Services </h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&q=80" alt="">
+                    <h3>Contract Drafting &amp; Review</h3>
+                    <p>Expert drafting and thorough review of business contracts to protect your interests.</p>
+                </article>
+                <article class="service-card">
+                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400&q=80" alt="">
+                    <h3>Corporate Governance</h3>
+                    <p>Guidance on board structures, compliance policies, and regulatory obligations.</p>
+                </article>
+                <article class="service-card">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&q=80" alt="">
+                    <h3>Business Formation &amp; Structuring</h3>
+                    <p>Help choosing the right entity type and setting up your company correctly.</p>
+                </article>
+                <article class="service-card">
+                    <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=400&q=80" alt="">
+                    <h3>Mergers &amp; Acquisitions (M&amp;A)</h3>
+                    <p>End-to-end support for mergers, acquisitions, and due diligence processes.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="section">
+            <h2 class="section-heading">Gallery</h2>
+            <div class="gallery-slider">
+                <div class="gallery-track" id="gallery-track">
+                    <div class="gallery-slide active">
+                        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=700&q=80" alt="Signing documents">
+                        <button class="expand-btn" aria-label="Expand"><i class="fas fa-up-right-and-down-left-from-center"></i></button>
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1589397210850-0f0a2c2c2c2c?w=700&q=80" alt="Legal team"
+                            onerror="this.src='https://images.unsplash.com/photo-1521791136064-7986c2920216?w=700&q=80'">
+                        <button class="expand-btn" aria-label="Expand"><i class="fas fa-up-right-and-down-left-from-center"></i></button>
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=700&q=80" alt="Office meeting">
+                        <button class="expand-btn" aria-label="Expand"><i class="fas fa-up-right-and-down-left-from-center"></i></button>
+                    </div>
+                </div>
+                <div class="dots" id="gallery-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="section">
+            <h2 class="section-heading">Products </h2>
+            <div class="products-row">
+                <article class="product-card">
+                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=200&q=80" alt="Book cover">
+                    <h3>Avtar Singh's Company Law</h3>
+                    <p class="price">₹931.00</p>
+                </article>
+                <article class="product-card">
+                    <img src="https://images.unsplash.com/photo-1497633766303-9d9a099c4581?w=200&q=80" alt="Book cover">
+                    <h3>Indian Company Law</h3>
+                    <p class="price">₹849.00</p>
+                </article>
+            </div>
+            <button class="btn-dark full">View More Products <i class="fas fa-arrow-right"></i></button>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section">
+            <h2 class="section-heading"><i class="fas fa-magnifying-glass section-deco-inline left"></i> Testimonials</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-track" id="testimonial-track">
+                    <blockquote class="testimonial-card active">
+                        <span class="quote-mark">"</span>
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face"
+                            alt="Vikram Sinha" class="reviewer-img">
+                        <cite>Vikram Sinha</cite>
+                        <p>Mary provided exceptional guidance during our merger. Her attention to detail and deep
+                            knowledge of corporate law made the entire process seamless.</p>
+                        <span class="quote-mark bottom">"</span>
+                    </blockquote>
+                    <blockquote class="testimonial-card">
+                        <span class="quote-mark">"</span>
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face"
+                            alt="Priya Sharma" class="reviewer-img">
+                        <cite>Priya Sharma</cite>
+                        <p>Professional, responsive, and thorough. I highly recommend her services for any corporate
+                            legal matter.</p>
+                        <span class="quote-mark bottom">"</span>
+                    </blockquote>
+                </div>
+                <div class="dots" id="testimonial-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section class="section">
+            <h2 class="section-heading"> Blog</h2>
+            <div class="blog-slider">
+                <article class="blog-card active" id="blog-track">
+                    <div class="blog-visual">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>Which is Right for Your Business Structure?</h3>
+                    <p>Choosing between LLC, corporation, or partnership affects taxes, liability, and growth. Here's
+                        a practical checklist to decide what fits your venture.</p>
+                    <button class="btn-sm">Read More</button>
+                </article>
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Hours -->
+        <section class="section section-dark hours">
+            <h2 class="section-heading light">Business Hours</h2>
+            <div class="hours-grid">
+                <div class="hour-card"><i class="fas fa-calendar-day"></i><span class="day">Monday</span><span class="time">10:00 AM - 6:00 PM</span></div>
+                <div class="hour-card"><i class="fas fa-calendar-day"></i><span class="day">Tuesday</span><span class="time">10:00 AM - 6:00 PM</span></div>
+                <div class="hour-card"><i class="fas fa-calendar-day"></i><span class="day">Wednesday</span><span class="time">10:00 AM - 6:00 PM</span></div>
+                <div class="hour-card"><i class="fas fa-calendar-day"></i><span class="day">Thursday</span><span class="time">10:00 AM - 6:00 PM</span></div>
+                <div class="hour-card"><i class="fas fa-calendar-day"></i><span class="day">Friday</span><span class="time">10:00 AM - 6:00 PM</span></div>
+                <div class="hour-card"><i class="fas fa-calendar-day"></i><span class="day">Saturday</span><span class="time">10:00 AM - 2:00 PM</span></div>
+            </div>
+            <div class="hour-card sunday closed">
+                <i class="fas fa-calendar-day"></i>
+                <span class="day">Sunday</span>
+                <span class="time">Closed</span>
+            </div>
+        </section>
+
+        <!-- QR Code -->
+        <section class="section">
+            <h2 class="section-heading">QR Code</h2>
+            <div class="qr-card">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https://maryadren.law"
+                    alt="Scan to contact QR code" class="qr-img">
+                <div class="qr-text">
+                    <h3>Scan to Contact</h3>
+                    <p>Point your camera at the QR code to save my contact details instantly.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inquiries -->
+        <section class="section inquiries">
+            <h2 class="section-heading">Inquiries</h2>
+            <form class="inquiry-form" id="inquiry-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <textarea rows="4" placeholder="Message" required></textarea>
+                <label class="file-upload">
+                    <input type="file" id="file-upload">
+                    <span><i class="fas fa-paperclip"></i> Choose File to upload</span>
+                </label>
+                <button type="submit" class="btn-dark full">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Map -->
+        <section class="section map-section">
+            <i class="fas fa-shield-halved map-deco"></i>
+            <iframe title="Office location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.763939887!2d72.8776559!3d19.0760904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648caf!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1715000000000!5m2!1sen!2sin"
+                width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <footer class="footer">
+            <p>Made By vCard Builder</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function initSlider(trackId, dotsId, cardSelector) {
+            const track = document.getElementById(trackId);
+            const dots = document.querySelectorAll(`#${dotsId} .dot`);
+            if (!track || !dots.length) return;
+            const cards = track.querySelectorAll(cardSelector);
+            let current = 0;
+
+            function goTo(index) {
+                current = index;
+                cards.forEach((c, i) => c.classList.toggle('active', i === index));
+                dots.forEach((d, i) => d.classList.toggle('active', i === index));
+            }
+
+            dots.forEach(dot => {
+                dot.addEventListener('click', () => goTo(Number(dot.dataset.index)));
+            });
+
+            setInterval(() => goTo((current + 1) % cards.length), 6000);
+        }
+
+        initSlider('gallery-track', 'gallery-dots', '.gallery-slide');
+        initSlider('testimonial-track', 'testimonial-dots', '.testimonial-card');
+
+        document.getElementById('inquiry-form')?.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you! Your message has been sent.');
+            e.target.reset();
+        });
+
+        document.getElementById('file-upload')?.addEventListener('change', (e) => {
+            const label = e.target.closest('.file-upload')?.querySelector('span');
+            if (label && e.target.files[0]) {
+                label.innerHTML = `<i class="fas fa-paperclip"></i> ${e.target.files[0].name}`;
+            }
+        });
+    </script>
+</body>
+
+</html>
